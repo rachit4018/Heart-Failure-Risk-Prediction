@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Heart Failure Prediction</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="./static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./static/css2/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<body>
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center blue-text">Heart Failure Prediction</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Showing Heart Failure Status</h5>
+        <br>
+        </h5>
+      </div>
+
+              <div class="row">
+    <form action='/sub' method="POST" class="col s12">
+      <div class="row">
+
+        <div class="input-field col s4">
+            <label for="age"><b>age</b></label>
+            <br>
+          <input   id="age" name='age' type="text" class="validate" required>
+        </div>
+        <div class="input-field col s4">
+
+          <label for="anaemia"><b>anaemia </b></label>
+            <br>
+          <input id="anaemia"  name="anaemia" type="text" class="validate" required>
+
+        </div>
+
+        <div class="input-field col s4">
+            <label for="creatinine_phosphokinase"><b>creatinine_phosphokinase</b></label>
+            <br>
+          <input id="creatinine_phosphokinase" name="creatinine_phosphokinase" type="text" class="validate" required>
+
+        </div>
+
+        <div class="input-field col s4">
+            <label for="diabetes"><b>diabetes</b></label>
+            <br>
+          <input id="diabetes" name="diabetes" type="text" class="validate" required>
+
+        </div>
+
+        <div class="input-field col s4">
+            <label for="ejection_fraction"><b>ejection_fraction</b></label>
+            <br>
+          <input id="ejection_fraction" name="ejection_fraction" type="text" class="validate" required>
+
+        </div>
+
+
+        <div class="input-field col s4">
+            <label for="high_blood_pressure"><b>high_blood_pressure</b></label>
+            <br>
+          <input id="high_blood_pressure" name="high_blood_pressure" type="text" class="validate" required>
+
+        </div>
+
+        <div class="input-field col s4">
+            <label for="platelets"><b>platelets</b></label>
+            <br>
+          <input id="platelets" name="platelets" type="text" class="validate" required>
+
+        </div>
+
+        <div class="input-field col s4">
+            <label for="serum_creatinine"><b>serum_creatinine</b></label>
+            <br>
+          <input id="serum_creatinine" name="serum_creatinine" type="text" class="validate" required>
+
+        </div>
+
+        <div class="input-field col s4">
+            <label for="serum_sodium"><b>serum_sodium</b></label>
+            <br>
+          <input id="serum_sodium" name="serum_sodium" type="text" class="validate" required>
+
+        </div>
+
+        <div class="input-field col s4">
+            <label for="sex"><b>sex</b></label>
+            <br>
+          <input id="sex" name="sex" type="text" class="validate"required>
+
+        </div>
+
+
+        <div class="input-field col s4">
+            <label for="smoking"><b>smoking</b></label>
+            <br>
+          <input id="smoking" name="smoking" type="text" class="validate" required>
+
+        </div>
+
+        <div class="input-field col s4">
+            <label for="time"><b>time</b></label>
+            <br>
+          <input id="time" name="time" type="text" class="validate" required>
+
+        </div>
+
+
+      <div class="row center">
+
+          <button type="submit" class="btn-large waves-effect waves-light blue">Predict Probability</button>
+      </div>
+    </form>
+      </div>
+
+    </div>
+    </div>
+    
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src=".js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
