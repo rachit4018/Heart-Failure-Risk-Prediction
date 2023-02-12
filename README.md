@@ -18,9 +18,9 @@ https://www.kaggle.com/datasets/rithikkotha/heart-failure-clinical-records-datas
 ![image](https://user-images.githubusercontent.com/41759417/218331942-9be62da3-9228-4dda-a161-0c30be73921c.png)
 
 # Input 
-![alt text](https://github.com/rachit4018/Heart-Failure-Risk-Prediction/blob/master/ss1.png?raw=true) 
+![alt text](https://github.com/rachit4018/Heart-Failure-Risk-Prediction/blob/main/ss1.png?raw=true) 
 
 # Output
-![alt text](https://github.com/rachit4018/Heart-Failure-Risk-Prediction/blob/master/ss2.png?raw=true)
+![alt text](https://github.com/rachit4018/Heart-Failure-Risk-Prediction/blob/main/ss2.png?raw=true)
 
-![alt text](https://github.com/rachit4018/Heart-Failure-Risk-Prediction/blob/master/ss3.png?raw=true) 
+![alt text](https://github.com/rachit4018/Heart-Failure-Risk-Prediction/blob/main/ss3.png?raw=true) 
